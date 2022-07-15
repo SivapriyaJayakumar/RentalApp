@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RentalApp/static/css/main.706989a8.chunk.css",
-    "main.js": "/RentalApp/static/js/main.172562a1.chunk.js",
-    "main.js.map": "/RentalApp/static/js/main.172562a1.chunk.js.map",
+    "main.js": "/RentalApp/static/js/main.4244f818.chunk.js",
+    "main.js.map": "/RentalApp/static/js/main.4244f818.chunk.js.map",
     "runtime-main.js": "/RentalApp/static/js/runtime-main.c2da12d4.js",
     "runtime-main.js.map": "/RentalApp/static/js/runtime-main.c2da12d4.js.map",
     "static/css/2.7d64f28b.chunk.css": "/RentalApp/static/css/2.7d64f28b.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.7d64f28b.chunk.css",
     "static/js/2.46a2bf7a.chunk.js",
     "static/css/main.706989a8.chunk.css",
-    "static/js/main.172562a1.chunk.js"
+    "static/js/main.4244f818.chunk.js"
   ]
 }
