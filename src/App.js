@@ -23,7 +23,7 @@ import homedb from './homedb';
         <div>
       <Main/>
       <Switch>
-      <Route  path="/home" component={HomePage}/>
+      <Route  path="/RentalApp" component={HomePage}/>
       <Route  path="/add" component={AddPropPage}/>
       <Route  path="/addprop" component={()=>{return(<Addpropform/>)}}/>
       
