@@ -44,7 +44,7 @@ class Add extends React.Component{
           </Card>
             </div>
             <div className="beginpostbutton">
-               <a href="/addprop" ><button className=" beginpostbut applyfilter">Begin to Post Your Property</button></a> 
+               <a href="/RentalApp/addprop" ><button className=" beginpostbut applyfilter">Begin to Post Your Property</button></a> 
             </div>
         </div>
        
