@@ -24,10 +24,9 @@ import homedb from './homedb';
       <Main/>
       <Switch>
       <Route  path="/RentalApp" component={HomePage}/>
-      <Route  path="/add" component={AddPropPage}/>
-      <Route  path="/addprop" component={()=>{return(<Addpropform/>)}}/>
-      
-      <Redirect to="/home" component={HomePage}/>
+      <Route  path="/RentalApp/add" component={AddPropPage}/>
+      <Route  path="/RentalApp/addprop" component={()=>{return(<Addpropform/>)}}/>
+      <Redirect to="/RentalApp/home" component={HomePage}/>
      </Switch>
      </div>
       
