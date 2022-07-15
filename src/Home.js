@@ -492,7 +492,7 @@ class Home extends React.Component{
                         {possession.map((p,i)=>{
                             return(
                                 <>
-                                <Input key={i} type="radio" className="radiobut" key={i} id={i} name="option1ofposs" onClick={e=>{this.recordPossession(p.text)}}/> <Label>{p.text}</Label><br/>
+                                <Input key={i} type="radio" className="radiobut" id={i} name="option1ofposs" onClick={e=>{this.recordPossession(p.text)}}/> <Label>{p.text}</Label><br/>
                                 </>
                             );
                         })}
@@ -572,7 +572,7 @@ class Home extends React.Component{
                                 <CardBody>
                                 <CardText>
                                 <div className="imagewrapchild">
-                                <span  style={{color:"#404040"},{fontSize:"28px"}}>{home.type}   by {home.name}</span>
+                                <span  style={{color:"#404040",fontSize:"28px"}}>{home.type}   by {home.name}</span>
                                 <div className="iwchildcontents">Address   :   {home.address}</div>
                                 <div className="iwchildcontents">Property for   :   {home.category}</div>
                                 </div>
@@ -643,7 +643,7 @@ class Home extends React.Component{
                     {possession.map((p,i)=>{
                         return(
                             <>
-                            <Input key={i} type="radio" className="radiobut" key={i} id={i} name="option1ofposs" onClick={e=>{this.recordPossession(p.text)}}/> <Label>{p.text}</Label><br/>
+                            <Input key={i} type="radio" className="radiobut" id={i} name="option1ofposs" onClick={e=>{this.recordPossession(p.text)}}/> <Label>{p.text}</Label><br/>
                             </>
                         );
                     })}
