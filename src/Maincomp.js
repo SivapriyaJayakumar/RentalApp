@@ -36,7 +36,7 @@ class Main extends React.Component {
       <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="mr-auto" navbar>
               <NavItem>
-                  <NavLink href="/RentalApp/add"> Add </NavLink>
+                  <NavLink href="/add"> Add </NavLink>
               </NavItem>
           </Nav>
           </Collapse>
