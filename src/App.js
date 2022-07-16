@@ -24,8 +24,8 @@ import homedb from './homedb';
       <Main/>
       <Switch>
       <Route  path="/home" component={HomePage}/>
-      <Route  path="#/add" component={AddPropPage}/>
-      <Route  path="#/addprop" component={()=>{return(<Addpropform/>)}}/>
+      <Route  path="/add" component={AddPropPage}/>
+      <Route  path="/addprop" component={()=>{return(<Addpropform/>)}}/>
       <Redirect to="/home" component={HomePage}/>
      </Switch>
      </div>
