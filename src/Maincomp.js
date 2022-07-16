@@ -31,12 +31,12 @@ class Main extends React.Component {
        
       <div className="navbarpar">
       <Navbar  className="navig"  expand="md">
-      <NavbarBrand className="navig" href="/home">Housify</NavbarBrand>
+      <NavbarBrand className="navig" href="#/home">Housify</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="mr-auto" navbar>
               <NavItem>
-                  <NavLink href="/add"> Add </NavLink>
+                  <NavLink href="#/add"> Add </NavLink>
               </NavItem>
           </Nav>
           </Collapse>
