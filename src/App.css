@@ -64,7 +64,6 @@ a{
     max-height:93%;
     position: fixed;
     overflow-y: scroll;
-  
 }
 
 .badges{
@@ -89,7 +88,6 @@ a{
     border-radius: 8px;
     border:2px solid #4B5563;
     color:#1F2937;
-    min-width: 40px;
     padding: 8px;
     font-size: 16px;
     margin:8px;
@@ -295,6 +293,31 @@ margin: 20px 0px;
     .proplistcard{
         padding: 0px;
         max-height: 500px;
+    }
+   
+}
+@media only screen and (max-width:500px){
+    .lefttoolbar{
+        max-width: 40%;
+        width: 180px;
+    }
+    .badgediv, .rentlabel,label{
+        font-size:12px;
+    }
+    .searchrender{
+        margin-left: 40%;
+    }
+    .searchchild{
+        max-width: 60%;
+        max-height:95%;
+    }
+    .imagewrapchild span{
+        font-size: 18px !important;
+    }
+    .proplistcard{
+        padding: 0px;
+        min-width: 100px;
+       
     }
    
 }
