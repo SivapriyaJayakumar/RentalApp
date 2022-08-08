@@ -107,7 +107,7 @@ import homedb from './homedb';
                     }
                     console.log(homedb.length);
                     var l=homedb.length;
-                    //homedb.push(obj);
+                    homedb.push(obj);
                     console.log(obj);
                     console.log("after psuhing"+homedb.length);
                     if(homedb.length==l+1){
